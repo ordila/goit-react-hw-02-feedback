@@ -20,11 +20,6 @@
       "@/*": ["*"]
     }
   },
-  "include": [
-    "src/**/*.ts",
-    "src/**/*.tsx",
-    "src/index.js",
-    "src/components/Statistic/statistic.jsx"
-  ],
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/index.js"],
   "exclude": ["node_modules"]
 }

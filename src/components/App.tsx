@@ -1,9 +1,10 @@
 import { Button } from './Button/Button';
 import { Statistic } from './Statistic/Statistic';
-import { Notification } from './Notification/Notification';
+
 import css from './App.module.css';
 import { Component } from 'react';
 import { Section } from './Section/Section';
+import { Notifications } from './Notification/Notifications';
 
 interface IProps {
   good: number;
@@ -67,7 +68,7 @@ export class App extends Component<{}, IProps> {
             />
           </Section>
         ) : (
-          <Notification message="There is no feedback" />
+          <Notifications message="There is no feedback" />
         )}
       </div>
     );
