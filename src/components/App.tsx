@@ -50,7 +50,7 @@ export class App extends Component<{}, IProps> {
         <Section title="Please leave your feedback">
           <div className={css.buttons_wrapper}>
             {options.map(el => (
-              <Button name={el} handleClick={this.handleButton}>
+              <Button key={el} name={el} handleClick={this.handleButton}>
                 {el}
               </Button>
             ))}
