@@ -1,4 +1,5 @@
-.massageAboutNothing {
-  color: red;
+.notification {
   margin-top: 20px;
+
+  color: red;
 }

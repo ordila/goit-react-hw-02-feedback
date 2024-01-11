@@ -1,9 +1,19 @@
 .container {
-  margin: 0 auto;
-  text-align: center;
-  width: 500px;
-  background-color: lightblue;
   height: 500px;
-  border-radius: 20px;
+  width: 500px;
+
   padding: 20px;
+  margin: 0 auto;
+
+  border-radius: 20px;
+
+  text-align: center;
+
+  background-color: lightblue;
+}
+
+.buttons_wrapper {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
 }

@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
+import { ISectionProps } from './Section.types';
 
-export default class Section extends Component {
+export class Section extends Component<ISectionProps> {
   render() {
     const { title, children } = this.props;
     return (
-      <div>
+      <>
         <h2>{title}</h2>
         <div>{children}</div>
-      </div>
+      </>
     );
   }
 }

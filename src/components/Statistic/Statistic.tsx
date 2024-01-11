@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import { IStatisticProps } from './Statistic.types';
 
-export default class Statistic extends Component {
+export class Statistic extends Component<IStatisticProps> {
   render() {
     const { good, neutral, bad, total, percantage } = this.props;
 
